@@ -21,10 +21,6 @@ The full workflow—including replication, training, and fine-tuning—is docume
 
 | Path / File | Description |
 |-------------|-------------|
-| `food_data/` | Image dataset used for transfer learning |
-| `food_data/pizza_steak_sushi/` | The specific 3-class dataset used for fine-tuning |
-| `models/` | Stores trained / fine-tuned model weights |
-| `models/08_pretrained_vit_...pizza_steak_sushi.pt` | Final fine-tuned ViT model checkpoint |
 | `Replicating_Paper.ipynb` | ViT implementation & replication of paper experiments |
 | `torch_CV_training.ipynb` | Foundational PyTorch CV training (CNNs, loops, transforms) |
 | `transfer_learning.ipynb` | ViT transfer learning: loading, replacing head, fine-tuning |
